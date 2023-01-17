@@ -1,0 +1,25 @@
+{
+  "name": "free-bot-hosting",
+  "version": "1.0.1",
+  "description": "Quoted Discord BOT - FREE BOT HOSTING! Message quoted1104@gmail.com for details.",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@discordjs/uws": "11.149.1",
+    "discord.js": "11.5.1",
+    "discord.js-commando": "0.10.0",
+    "dotenv": "8.2.0",
+    "fs": "0.0.1-security",
+    "npm": "6.13.4",
+    "sequelize": "5.21.3",
+    "sqlite": "3.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "7.7.5",
+    "parcel-bundler": "^1.12.4"
+  },
+  "keywords": []
+}

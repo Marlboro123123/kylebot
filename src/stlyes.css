@@ -1,0 +1,11 @@
+h1 {
+  color: blue;
+  border: 20px solid blue;
+  border-color: lightblue;
+}
+
+p {
+  color: red;
+  border-color: darkred;
+  border: 5px dashed blue;
+}
