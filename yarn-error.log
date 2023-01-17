@@ -1,0 +1,54 @@
+Arguments: 
+  /usr/local/bin/node /opt/yarn-v1.22.19/bin/yarn.js build
+
+PATH: 
+  /project/home/pitcher-host/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/opt/pitcher/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /project/kylebot/package.json: Unexpected token / in JSON at position 574
+      at JSON.parse (<anonymous>)
+      at /opt/yarn-v1.22.19/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/opt/yarn-v1.22.19/lib/cli.js:310:30)
+      at /opt/yarn-v1.22.19/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "7DDoS",
+    "version": "1.0.1",
+    "description": "Bot Został stworzony przez Marlboro :)",
+    "main": "index.html",
+    "scripts": {
+      "start": "parcel index.html --open",
+      "build": "parcel build index.html"
+    },
+    "dependencies": {
+      "@discordjs/uws": "11.149.1",
+      "discord.js": "11.5.1",
+      "discord.js-commando": "0.10.0",
+      "dotenv": "8.2.0",
+      "fs": "0.0.1-security",
+      "npm": "6.13.4",
+      "sequelize": "5.21.3",
+      "sqlite": "3.0.3"
+    },
+    "devDependencies": {
+      "@babel/core": "7.7.5",
+      "parcel-bundler": "^1.12.4"
+    },
+    "keywords": [/]
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
