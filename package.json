@@ -1,7 +1,7 @@
 {
-  "name": "free-bot-hosting",
+  "name": "7DDoS",
   "version": "1.0.1",
-  "description": "Quoted Discord BOT - FREE BOT HOSTING! Message quoted1104@gmail.com for details.",
+  "description": "Bot Został stworzony przez Marlboro :)",
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
@@ -21,5 +21,4 @@
     "@babel/core": "7.7.5",
     "parcel-bundler": "^1.12.4"
   },
-  "keywords": []
-}
+  "keywords": [/]
